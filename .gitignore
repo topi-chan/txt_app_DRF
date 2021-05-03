@@ -1,3 +1,7 @@
 env/
 dft_app/dft_app/local_settings.py
 .DS_Store
+dft_app/db.sqlite3
+dft_app/txt_app/migrations/
+dft_app/txt_app/__pycache__/
+dft_app/dft_app/__pycache__/
