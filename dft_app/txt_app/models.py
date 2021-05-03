@@ -29,4 +29,4 @@ class Message(models.Model):
         if self.tittle != '':
             return self.tittle
         else:
-            return self.id
+            return str(self.id)
