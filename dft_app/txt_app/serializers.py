@@ -3,7 +3,7 @@ from .models import Message
 
 
 class MessageViewSerializer(serializers.ModelSerializer):
-'''For unauthenticated views'''
+    '''For unauthenticated views'''
 
     class Meta:
         model = Message
