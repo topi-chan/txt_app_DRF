@@ -8,7 +8,7 @@ from .views import MessageViewSet, MessageChangeViewSet
 urlpatterns = [
     path('', views.index, name='index')]
 
-
+#API
 router = DefaultRouter()
 router.register(r'api/messages', MessageChangeViewSet, basename='MessageChange')
 
